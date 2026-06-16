@@ -58,7 +58,7 @@ def index():
 
             <tr>
             <td>セキュリティ</td>
-             <td>木曜日:4限</td>
+            <td>木曜日:4限</td>
             </tr>
 
             <tr>
@@ -69,20 +69,20 @@ def index():
             </table>
             <br>
             <div style="padding: 10px; margin-bottom: 10px; border: 1px dotted #333333; border-radius: 5px;">
-    
-    <div style="border: 15px solid #000; padding: 10px;">
-    人工知能:目的概要<br>
-    </div>
-    コンピュータの究極の高度利用法と位置づけられるのが人工知能である。<br>
-    この分野の諸技術をコンピュータシステムやその発展と関連づけつつ<br>
-    他科目では扱っていない話題を中心に順に取り上げる。
-</div>
+                <div style="border: 15px solid #000; padding: 10px;">
+                    人工知能:目的概要
+                </div>
+                コンピュータの究極の高度利用法と位置づけられるのが人工知能である。<br>
+                この分野の諸技術をコンピュータシステムやその発展と関連づけつつ<br>
+                他科目では扱っていない話題を中心に順に取り上げる。
+            </div>
         </body>
     </html>
     """
     return HTMLResponse(content=html_content, status_code=200)
 
-    @app.post("/order")
+
+@app.post("/order")
 async def take_order(item: str, quantity: int = 1):
     # 在庫チェック（今回は簡易的に3品まで）
     if quantity > 3:
