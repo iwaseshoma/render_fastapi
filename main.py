@@ -45,7 +45,7 @@ def index():
         </head>
         <body>
             <h1>Look ma! HTML!</h1>
-            <table>
+            <table border="1">
             <tr>
             <th>履修授業</th>
             <th>授業日</th>
@@ -65,7 +65,7 @@ def index():
             <td>ネトプロ</td>
             <td>金曜:1,2限</td>
             </tr>
-            
+
             </table>
         </body>
     </html>
