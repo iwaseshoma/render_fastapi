@@ -69,12 +69,32 @@ def index():
             </table>
             <br>
             <div style="padding: 10px; margin-bottom: 10px; border: 1px dotted #333333; border-radius: 5px;">
-                <div style="border: 15px solid #000; padding: 10px;">
+                <b>
                     人工知能:目的概要
-                </div>
+                </b>
                 コンピュータの究極の高度利用法と位置づけられるのが人工知能である。<br>
                 この分野の諸技術をコンピュータシステムやその発展と関連づけつつ<br>
                 他科目では扱っていない話題を中心に順に取り上げる。
+            </div><br>
+
+            <div style="padding: 10px; margin-bottom: 10px; border: 1px dotted #333333; border-radius: 5px;">
+                <b>
+                    セキュリティ:目的概要
+                </b>
+                情報セキュリティに関する脅威と対策を理解し、暗号技術に関わる知識を習得する。<br>
+                【授業形態】講義、遠隔講義(他大学のみ)<br>
+                【enPiT科目】enPiT2 BasicSecCap(セキュリティ総論C)科目に対応する。
+            </div><br>
+
+            <div style="padding: 10px; margin-bottom: 10px; border: 1px dotted #333333; border-radius: 5px;">
+                <b>
+                    ネトプロ:目的概要
+                </b>
+                クライアント、サーバモデル、TCP通信やUDP通信、アプリケーションプログラミングインタフェース(API)の基本および<br>
+                ネットワークアプリケーションを効率的に動作させるためのマルチスレッドプログラミングを講義する。<br>
+                この基本の後、チャット等の対話型アプリケーション開発の実例、マルチスレッド、WebAPI、Webクライアントを講義し<br>
+                開発手法、デプロイ手法を習得する。最終課題として自ら考案したネットワーク利用したシステムを企画し<br>
+                チームによりプログラミング実装を行い、発表を行う。
             </div>
         </body>
     </html>
