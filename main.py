@@ -67,6 +67,13 @@ def index():
             </tr>
 
             </table>
+
+            <div style="padding: 10px; margin-bottom: 10px; border: 1px dotted #333333; border-radius: 5px;">
+    人工知能:目的概要<br>
+    コンピュータの究極の高度利用法と位置づけられるのが人工知能である。
+    この分野の諸技術をコンピュータシステムやその発展と関連づけつつ
+    他科目では扱っていない話題を中心に順に取り上げる。
+</div>
         </body>
     </html>
     """
