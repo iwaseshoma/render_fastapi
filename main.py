@@ -47,8 +47,12 @@ def index():
             <h1>Look ma! HTML!</h1>
             <table>
             <th>履修授業</th>
+            <td>人工知能</td>
+            <td>セキュリティ</td>
             <td>ネトプロ</td>
             <th>授業日</th>
+            <td>木曜日:3限</td>
+            <td>木曜日:4限</td>
             <td>金曜:1,2限</td>
             </table>
         </body>
