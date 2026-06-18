@@ -105,7 +105,7 @@ def index():
 @app.post("/order")
 async def take_order(item: str, quantity: int = 4):
     # 在庫チェック（今回は簡易的に3品まで）
-    if quantity > 3:
+    if quantity > 1:
         return {"response": f"申し訳ありません、{item}は一度に3個までしか注文できません。"}
     return {
         "response": f"ご注文ありがとうございます！{item}を{quantity}個承りました。",
